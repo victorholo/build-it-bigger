@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jokesappmodule.JokeActivity">
+
+    <TextView
+        android:id="@+id/joke_textview"
+        android:layout_width="@dimen/match_constraint_size"
+        android:layout_height="@dimen/match_constraint_size"
+        android:layout_marginBottom="@dimen/material_margin"
+        android:layout_marginEnd="@dimen/material_margin"
+        android:layout_marginStart="@dimen/material_margin"
+        android:layout_marginTop="@dimen/material_margin"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
